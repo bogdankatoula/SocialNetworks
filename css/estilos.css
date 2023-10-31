@@ -5,3 +5,13 @@
     text-decoration: none;
     color: black;
   }
+  header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  main{
+    display: flex;
+   
+    flex-direction: column;
+  }
