@@ -1,9 +1,11 @@
 *{
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
   a:link, a:visited { 
     text-decoration: none;
-    color: black;
+    color: red;
   }
   header{
     display: flex;
@@ -12,6 +14,11 @@
   }
   main{
     display: flex;
-   
     flex-direction: column;
+    
+    margin: 0 25% 15vh 25%;
+  }
+  footer{
+    color: white;
+    background-color: black;
   }
