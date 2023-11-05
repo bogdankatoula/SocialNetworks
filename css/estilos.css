@@ -4,24 +4,18 @@
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(43,52,69);
   }
-  a:link, a:visited { 
+  a:link, a:visited{
+    color: rgb(43, 52, 69);
     text-decoration: none;
-    color: rgb(254, 105, 106);
   }
-  a:hover {
-    color: rgba(254, 105, 106, 0.5);
+  a:hover{
+    color: rgb(254, 105, 106);
   }
   header{
     display: flex;
     text-align: center;
     justify-content: center;
     background-color: rgb(241, 245, 249);
-  }
-  header a:link, a:visited{
-    color: rgb(43, 52, 69);
-  }
-  header a:hover{
-    color: rgb(254, 105, 106);
   }
   .nav__title{
     font-size: 30px;
@@ -44,6 +38,34 @@
     display: flex;
     flex-direction: column;
     margin: 0 25% 15vh 25%;
+  }
+  main a:link, main a:visited {
+    text-decoration: none;
+    color: rgb(254, 105, 106);
+  }
+  
+  main a:hover {
+    color: rgba(254, 105, 106, 0.5);
+  }
+  .users{
+    list-style: none;
+  }
+  .users__user::before {
+    content: url("/img/users.svg");
+    display: inline-block;
+    width: 16px; 
+    height: 16px; 
+    margin-right: 5px; 
+  }
+  .uses{
+    list-style: none;
+  }
+  .uses__use::before{
+    content: url("/img/users.svg");
+    display: inline-block;
+    width: 16px; 
+    height: 16px; 
+    margin-right: 5px; 
   }
   footer{
     color: rgb(255,255,255);
