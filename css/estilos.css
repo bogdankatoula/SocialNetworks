@@ -72,6 +72,15 @@
   h2{
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+  .redesH2{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-weight: 500;
     font-size: 20px;
   }
@@ -90,6 +99,22 @@
   article p {
     margin-bottom: 20px;
   }
+  div p {
+    margin-bottom: 20px;
+  }
+  .articleInfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .articleInfo__Img{
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .articleInfo p{
+    font-size: 10px;
+  }
   .generalStats{
     list-style-type: disc;
   list-style-position: inside;
@@ -98,6 +123,9 @@
   .generalStats li{
     margin: 10px 10px;
     margin-left: 5%;
+  }
+  .moreInfo{
+    font-size: 10px;
   }
   .users{
     list-style: none;
@@ -118,6 +146,9 @@
     width: 16px; 
     height: 16px; 
     margin-right: 5px; 
+  }
+  .bibliography{
+    font-size: 13px;
   }
   footer{
     color: rgb(255,255,255);
