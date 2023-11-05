@@ -67,10 +67,13 @@
     display: flex;
     text-align: center;
     font-size: 35px;
+    justify-content: center;
   }
   h2{
     margin-top: 25px;
     margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 20px;
   }
   h6{
     display: flex;
@@ -86,6 +89,15 @@
   }
   article p {
     margin-bottom: 20px;
+  }
+  .generalStats{
+    list-style-type: disc;
+  list-style-position: inside;
+  color: rgb(43, 52, 69);
+  }
+  .generalStats li{
+    margin: 10px 10px;
+    margin-left: 5%;
   }
   .users{
     list-style: none;
@@ -110,4 +122,13 @@
   footer{
     color: rgb(255,255,255);
     background-color: rgb(0,0,0);
+    margin-top: 10vh;
+    font-size: 10px;
+    padding: 25px 25px 15px 25px;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer li{
+    padding-bottom: 10px;
   }
