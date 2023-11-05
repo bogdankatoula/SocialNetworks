@@ -147,6 +147,20 @@
     height: 16px; 
     margin-right: 5px; 
   }
+  .quote{
+    position: relative;
+    padding-left: 20px;
+    margin-left: 40px;
+  }
+  .quote::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px; 
+    height: 100%;
+    background-color: rgb(254, 105, 106);
+  }
   .bibliography{
     font-size: 13px;
   }
